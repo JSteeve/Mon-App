@@ -7,21 +7,59 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/flashcard_question"
+        android:id="@+id/question"
         android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
         android:layout_height="200dp"
-        android:text="Who is the 44th president of the United States?"
-        android:textSize="45sp"
-        android:gravity="center" />
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:text="Who is the 44th president of the United States ?"
+        android:textColor="#fff000"
+        android:textSize="45sp" />
 
     <TextView
-        android:id="@+id/flashcard_answer"
+        android:id="@+id/text1"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:text="Barack Obama"
-        android:textSize="45sp"
+        android:layout_marginTop="20dp"
+        android:layout_height="50dp"
         android:gravity="center"
-        android:visibility="invisible"/>
+        android:textSize="40sp"
+        android:textColor="@color/Black"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#ffc8dd"
+        android:text="Bill Clinton"
+        android:visibility="invisible"
+        android:layout_below="@id/question"/>
 
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:textColor="@color/Black"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#ffc8dd"
+        android:text="George H. W. Bush"
+        android:visibility="invisible"
+        android:layout_below="@id/text1"/>
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:textColor="@color/Black"
+        android:background="#ffc8dd"
+        android:text="Barack Obama"
+        android:visibility="invisible"
+        android:layout_below="@id/text2"/>
 
 </RelativeLayout>
